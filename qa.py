@@ -4,9 +4,11 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet as wn
 import spacy
+
 import sys
 import time
 from json import dumps
+
 nlp = spacy.load("en_core_web_lg")
 
 questions = 0
