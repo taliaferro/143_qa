@@ -7,7 +7,7 @@ import spacy
 import sys
 import time
 from json import dumps
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_lg")
 
 questions = 0
 
